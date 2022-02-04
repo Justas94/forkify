@@ -1,0 +1,30 @@
+{
+  "name": "forkify",
+  "version": "1.0.0",
+  "description": "Recipe application",
+  "default": "index.html",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Justas94/forkify.git"
+  },
+  "author": "Justas Jaskunas",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Justas94/forkify/issues"
+  },
+  "homepage": "https://github.com/Justas94/forkify#readme",
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.2.1",
+    "parcel": "^2.2.1"
+  },
+  "dependencies": {
+    "core-js": "^3.21.0",
+    "regenerator-runtime": "^0.13.9",
+    "sass": "^1.49.7",
+    "start": "^5.1.0"
+  }
+}
